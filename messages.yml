@@ -1,16 +1,16 @@
-cooldown: '&6Warning: &7Please wait for %time% seconds before placing again!'
-no_such_command: '&cNo such command. please type /ps help for more info'
-no_access: '&cYou are not allowed to do that here.'
-no_room_in_inventory: '&cYou don''t have enough room in your inventory.'
-no_room_dropping_on_floor: '&cYou don''t have enough room in your inventory. Dropping
-  item on floor.'
-invalid_block: '&cInvalid protection block.'
-not_enough_money: '&cYou don''t have enough money! The price is %price%.'
-paid_money: '&bYou''ve paid $%price%.'
-invalid_world: '&cInvalid world.'
-must_be_player: '&cYou must be a player to execute this command.'
-go_back_page: Go back a page.
-go_next_page: Go to next page.
+cooldown: '&6Warning: &7กรุณารอ %time% วินาที ก่อนจะวางอีกรอบ!'
+no_such_command: '&cไม่พบคำสั่งนี้. กรุณาพิมพ์ /ps help เพื่อดูรายละเอียดเพิ่มเติม'
+no_access: '&cคุณไม่ถูกอนุญาตให้กระทำบนพื้นที่นี้.'
+no_room_in_inventory: '&cคุณมีพื้นที่ในช่องเก็บของไม่พอ.'
+no_room_dropping_on_floor: '&cคุณมีพื้นที่ในช่องเก็บของไม่พอ. ไอเท็ม
+  ถูกทิ้งลงบนพื้น.'
+invalid_block: '&cหินป้องกันไม่ถูกต้อง.'
+not_enough_money: '&cคุณมีเงินไม่พอ! ราคาของมันคือ %price%.'
+paid_money: '&bคุณได้จ่ายไป $%price%.'
+invalid_world: '&cโลกไม่ถูกต้อง.'
+must_be_player: '&cคุณต้องเป็นผู้เล่นถึงจะใช้คำสั่งนี้ได้.'
+go_back_page: กลับไปหน้าที่แล้ว.
+go_next_page: ไปหน้าถัดไป.
 help: |-
   &8&m=====&r PS Help &8&m=====
   &b> &7/ps help
@@ -69,12 +69,12 @@ psregion:
   region_overlap: หินป้องกัน > &cคุณไม่สามารถวางหินป้องกันที่พื้นที่นี้ได้เนื่องจากทับซ้อนกัน
   region_too_close: หินป้องกัน > &cหินป้องกันของคุณต้องอยู่ห่างจากหินป้องกันของคนอื่น
     %num% blocks
-  cant_teleport: หินป้องกัน > &cวาปของคุณถูกป้องกันจากหินป้องกัน
+  cant_teleport: หินป้องกัน > &cการวาร์ปของคุณถูกป้องกันจากหินป้องกัน
   specify_id_instead_of_alias: |-
-    &7There were multiple regions found with this name! Please use an ID instead.
+    &7มีหลายพื้นที่ที่ใช้ชื่อนี้แล้ว! กรุณาใช้ ID แทน.
      Regions with this name: &b%regions%
-  region_not_adjacent: หินป้องกัน > &cYou've passed the limit of non-adjacent regions!
-    Try putting your protection block closer to other regions you already own.
+  region_not_adjacent: หินป้องกัน > &cคุณเกินขีดจำกัดของพื้นที่ที่อยู่ไม่ติดกันแล้ว!
+    พยายามวางหินป้องกันให้ใกล้กันมากขึ้นกว่าเดิมในพื้นที่ที่คุณมีอยู่แล้ว.
   not_overlapping: หินป้องกัน > &cพื้นที่นี้ไม่ทับซ้อนกัน
   multi_region_does_not_exist: หินป้องกัน > ไม่มีพื้นที่นี้
   no_region_holes: หินป้องกัน > &cตรวจพบพื้นที่ที่ไม่มีการป้องกันภายในภูมิภาค! สิ่งนี้ไม่ได้รับอนุญาต
@@ -84,8 +84,8 @@ psregion:
     %region% อยู่ในขั้นตอนการเช่า
   no_permission_region_type: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้มีประเภทภูมิภาคนี้
   hidden: หินป้องกัน > &7ตอนนี้บล็อกการป้องกันถูกซ่อนอยู่
-  must_be_placed_in_existing_region: หินป้องกัน > &cThis must be placed inside of
-    an existing region!
+  must_be_placed_in_existing_region: หินป้องกัน > &cต้องวางภายใน
+    พื้นที่ที่มีอยู่แล้ว!
   already_in_location_is_hidden: หินป้องกัน > &cพื้นที่นี้มีหินป้องกันวางอยู่แล้ว
     (หินป้องกันที่ซ่อนอยู่)
   cannot_remove_yourself_last_owner: หินป้องกัน > &cคุณไม่สามารถลบตัวเองได้เนื่องจากคุณเป็นเจ้าของคนสุดท้าย
@@ -119,15 +119,13 @@ flag:
     Current value:
     %value%
   hover_change_group: Click to set this flag to apply to only %group%.
-  hover_change_group_null: '&cYou must set this flag to a value before changing the
-    group.'
+  hover_change_group_null: '&cคุณต้องเปลี่ยนค่าพื้นที่ตรงนี้ก่อนจะเปลี่ยนกลุ่ม.'
 rent:
   help: '&b> &7/ps rent'
   help_desc: ใช้คำสั่งนี้เพื่อจัดการค่าเช่า (buying and selling).
-  help_header: '&8&m=====&r Rent Help &8&m====='
-  already_renting: '&cThe region is already being rented out! You must stop leasing
-    the region first.'
-  not_rented: '&cThis region is not being rented.'
+  help_header: '&8&m=====&r ช่วยเหลือเกี่ยวกับการเช่า &8&m====='
+  already_renting: '&cพื้นที่ตรงนี้ถูกเช่าไปแล้ว! คุณต้องหยุดเช่าก่อน.'
+  not_rented: '&cพื้นที่ตรงนี้ยังไม่ถูกเช่า.'
   lease_success: |-
     &bRegion leasing terms set:
     &bPrice: &7%price%
@@ -136,79 +134,77 @@ rent:
   evicted: '&7ผู้เช่าถูกขับไล่ %tenant%.'
   not_renting: '&cพื้นที่นี้ไม่ได้ถูกปล่อยเช่าให้กับผู้เช่า'
   paid_landlord: '&b%tenant%&7 ได้จ่ายเงิน &b$%price%&7 สำหรับการเช่า &b%region%&7.'
-  paid_tenant: '&7จ่าย &b$%price%&7 to &b%landlord%&7 for region &b%region%&7.'
-  renting_landlord: '&b%player%&7 is now renting out region &b%region%&7.'
-  renting_tenant: '&7You are now renting out region &b%region%&7 for &b%price%&7 per
+  paid_tenant: '&7จ่าย &b$%price%&7 ให้ &b%landlord%&7 สำหรับพื้นที่ &b%region%&7.'
+  renting_landlord: '&b%player%&7 กำลังเช่าพื้นที่นี้แล้ว &b%region%&7.'
+  renting_tenant: '&7คุณกำลังเช่าพื้นที่ &b%region%&7 สำหรับราคา &b%price%&7 ต่อ
     &b%period%&7.'
-  not_tenant: '&cYou are not the tenant of this region!'
-  tenant_stopped_landlord: '&b%player%&7 has stopped renting out region &b%region%&7.
-    It is now available for others to rent.'
-  tenant_stopped_tenant: '&bYou have stopped renting out region %region%.'
-  being_sold: '&cThe region is being sold! Do /ps sell stop first.'
-  evict_no_money_tenant: '&7You have been &cevicted&7 from region &b%region%&7 because
-    you do not have enough money (%price%) to pay for rent.'
-  evict_no_money_landlord: '&b%tenant%&7 has been &cevicted&7 from region &b%region%&7
-    because they are unable to afford rent.'
-  cannot_rent_own_region: '&cYou cannot rent your own region!'
-  reached_limit: '&cYou''ve reached the limit of regions you are allowed to rent!'
-  price_too_low: '&cThe rent price is too low (must be larger than %price%).'
-  price_too_high: '&cThe rent price is too high (must be lower than %price%).'
-  period_too_short: '&cThe rent period is too short (must be longer than %period%
-    seconds).'
-  period_too_long: '&cThe rent period is too long (must be shorter than %period% seconds).'
-  period_invalid: '&cInvalid period format! Example: 24h for once a day.'
-  cannot_break_while_renting: '&cYou cannot break the region when it is being rented
-    out.'
+  not_tenant: '&cคุณไม่ใช่ผู้เช่าพื้นที่นี้!'
+  tenant_stopped_landlord: '&b%player%&7 ได้หยุดการเช่าพื้นที่นี้ &b%region%&7.
+    พื้นที่นี้ว่างสำหรับการเช่าเรียบร้อยแล้ว.'
+  tenant_stopped_tenant: '&bคุณได้หยุดการเช่าพื้นที่ %region%.'
+  being_sold: '&cพื้นที่ตรงนี้กำลังถูกขายแล้ว! พิมพ์ /ps เพื่อหยุดขาย.'
+  evict_no_money_tenant: '&7คุณถูก &cevicted&7 จากพื้น &b%region%&7 เพราะ
+    คุณมีเงินไม่เพียงพอ (%price%) ที่จะจ่ายค่าเช่า.'
+  evict_no_money_landlord: '&b%tenant%&7 ถูก &cevicted&7 จากพื้นที่ &b%region%&7
+    เพราะพวกเขามีเงินไที่จะจ่ายค่าเช่า.'
+  cannot_rent_own_region: '&cคุณไม่สามารถเช่าพื้นที่ของตัวเองได้!'
+  reached_limit: '&cคุณเช่าเกินจำนวนกำหนดพื้นที่ที่ถูกอนุญาตไว้แล้ว!'
+  price_too_low: '&cค่าเช่าถูกเกินไป (ราคาต้องมากกว่า %price%).'
+  price_too_high: '&cค่าเช่าราคาแพงเกินไป (ราคาต้องน้อยกว่า %price%).'
+  period_too_short: '&cระยะเวลาในการเช่าน้อยเกินไป (ระยะเวลาต้องนานกว่า %period%
+    วินาที).'
+  period_too_long: '&cระยะเวลาในการเช่ามากเกินไป (ระยะเวลาต้องมากกว่า %period% วินาที).'
+  period_invalid: '&cInvalid period format! Example: 24 ชั่วโมง ต่อหนึ่งวัน.'
+  cannot_break_while_renting: '&cคุณไม่สามารถทำลายพื้นที่ตรงนี้ได้เพราะพื้นที่่นี้ถูกเช่าไปแล้ว.'
 tax:
   help: '&b> &7/ps tax'
-  help_desc: Use this command to manage and pay taxes.
-  help_header: '&8&m=====&r Taxes Help &8&m====='
-  disabled_region: '&cTaxes are disabled for this region.'
-  set_as_autopayer: '&7Taxes for region &b%region%&7 will now be automatically paid
-    by you.'
-  set_no_autopayer: '&7Taxes for region &b%region%&7 now have to be manually paid
-    for.'
-  paid: '&7Paid &b$%amount%&7 in taxes for region &b%region%&7.'
-  info_header: '&8&m=====&r Tax Info (click for more info) &8&m====='
+  help_desc: ใช้คำสั่งนี้เพื่อจัดการและจ่ายภาษี.
+  help_header: '&8&m=====&r ความช่าวยเหลือด้านภาษี &8&m====='
+  disabled_region: '&cภาษีถูกปิดใช้งานสำหรับพื้นที่นี้.'
+  set_as_autopayer: '&7ภาษีสำหรับพื้นที่ &b%region%&7 กำลังจะถูกจ่ายโดยอัตโนมัติ
+    โดยคุณ.'
+  set_no_autopayer: '&7ภาษีสำหรับพื้นที่ &b%region%&7 ตอนนี้ถูกตั้งให้จ่ายด้วยตนเอง.'
+  paid: '&7Paid &b$%amount%&7 ในภาษีสำหรับพื้นที่ &b%region%&7.'
+  info_header: '&8&m=====&r ข้อมูลภาษี (กดเพื่อดูข้อมูลเพิ่ม) &8&m====='
   join_msg_pending_payments: |-
-    &7You have &b$%money%&7 in tax payments due on your regions!
-    View them with /ps tax info.
+    &7คุณมี &b$%money%&7 ในการชำระภาษีที่ต้องชำระในภูมิภาคของคุณ!
+    สามารถดูได้โดยพิมพ์ /ps tax info.
   player_region_info: '&7> &b%region%&7 - &3$%money% due'
   player_region_info_autopayer: '&7> &b%region%&7 - &3$%money% due&7 (you autopay)'
-  click_to_show_more_info: Click to show more information.
-  region_info_header: '&8&m=====&r %region% Tax Info &8&m====='
+  click_to_show_more_info: กดเพื่อดูข้อมูลดพิ่มเติม.
+  region_info_header: '&8&m=====&r %region% ข้อมูลภาษี &8&m====='
   region_info: |-
-    &9Tax Rate: &7$%taxrate% (sum of all merged regions)
+    &9Tax Rate: &7$%taxrate% (ผลรวมของภูมิภาคที่รวมทั้งหมด)
     &9Time between tax cycles: &7%taxperiod%
     &9Time to pay taxes after cycle: &7%taxpaymentperiod%
     &9Tax Autopayer: &7%taxautopayer%
     &9Taxes Owed: &7$%taxowed%
-  next_page: '&7Do /ps tax info -p %page% to go to the next page!'
+  next_page: '&7พิมพ์ /ps tax info -p %page% เพื่อไปหน้าถัดไป!'
 buy:
   help: '&b> &7/ps buy'
-  help_desc: Buy the region you are currently in.
-  not_for_sale: '&cThis region is not for sale.'
-  stop_sell: '&7The region is now not for sale.'
-  sold_buyer: '&7Bought region &b%region%&7 for &b$%price%&7 from &b%player%&7.'
-  sold_seller: '&7Sold region &b%region%&7 for &b$%price%&7 to &b%player%&7.'
+  help_desc: ซื้อพื้นที่ที่คุณกำลังอยู่.
+  not_for_sale: '&cพื้นที่นี้ไม่ได้มีไว้ขาย.'
+  stop_sell: '&7ตอนนี้พื้นที่นี้ไม่ได้มีไว้ขายแล้ว.'
+  sold_buyer: '&7ซื้อพื้นที่ &b%region%&7 สำหรับ &b$%price%&7 จาก &b%player%&7.'
+  sold_seller: '&7ขายพื้นที่ &b%region%&7 สำหรับ &b$%price%&7 ถึง &b%player%&7.'
 sell:
   help: '&b> &7/ps sell [price|stop]'
-  help_desc: Sell the region you are currently in.
-  rented_out: '&cThe region is being rented out! You must stop renting it out to sell.'
-  for_sale: '&7The region is now for sale for &b$%price%&7.'
+  help_desc: ขายพื้นที่ที่คุณกำลังอยู่.
+  rented_out: '&cพื้นที่นี้กำลังถูกเช่า! คุณต้องหยุดเช่าก่อนถึงจะขายได้.'
+  for_sale: '&7พื้นที่นี้กำลังถูกขายสำหรับ &b$%price%&7.'
 visibility:
   hide_help: '&b> &7/ps hide'
-  hide_help_desc: Use this command to hide or unhide your protection block.
+  hide_help_desc: ใช้คำสั่งนี้เพื่่อซ่อนหรือไม่ซ่อนหินป้องกันของคุณ.
   unhide_help: '&b> &7/ps unhide'
-  unhide_help_desc: Use this command to hide or unhide your protection block.
-  already_not_hidden: '&7The protection stone doesn''t appear hidden...'
-  already_hidden: '&7The protection stone appears to already be hidden...'
+  unhide_help_desc: ใช้คำสั่งนี้เพื่่อซ่อนหรือไม่ซ่อนหินป้องกันของคุณ.
+  already_not_hidden: '&7หินป้องกันของคุณไม่ถูกซ่อนแล้ว...'
+  already_hidden: '&7หินป้องกันของคุณถูซ่อนแล้ว...'
 info:
   help: '&b> &7/ps info members|owners|flags'
-  help_desc: Use this command inside a ps region to see more information about it.
-  header: '&8&m=====&r PS Info &8&m====='
+  help_desc: ใช้คำสั่งนี้ใน ps พื้นที่เพื่อดูข้อมูลเพิ่มเติม.
+  header: '&8&m=====&r ข้อมูล PS &8&m====='
   type: '&9Type: &7'
-  may_be_merged: (may be merged with other types)
+  may_be_merged: (อาจจะรวมกับชนิดอื่น)
   merged: '&9Merged regions: &7'
   members: '&9Members: &7'
   no_members: '&c(no members)'
@@ -224,126 +220,126 @@ info:
   tenant: '&9Tenant: &7'
   landlord: '&9Landlord: &7'
   rent: '&9Rent: &7'
-  available_for_sale: '&bRegion available for sale!'
-  available_for_rent: '&bRegion available for rent!'
+  available_for_sale: '&bRegion พร้อมขาย!'
+  available_for_rent: '&bRegion พร้อมสำหรับเช่า!'
 priority:
   help: '&b> &7/ps priority [number|null]'
-  help_desc: Use this command to set your region's priority.
+  help_desc: ใช้คำสั่งนี้เพื่อกำหนดลำดับความสำคัญของพื้นที่ของคุณ.
   info: '&7Priority: %priority%'
-  set: '&ePriority has been set.'
-  error: '&cError parsing input, check it again?'
+  set: '&eลำดับของคุณถูกตั้งแล้ว.'
+  error: '&cเกิดข้อผิดพลาดในการแยกวิเคราะห์อินพุตโปรดตรวจสอบอีกครั้ง'
 region:
   help: '&b> &7/ps region [list|remove|disown] [playername]'
   help_desc: Use this command to find information or edit other players' (or your
     own) protected regions.
   not_found_for_player: '&7No regions found for %player% in this world.'
-  list: '&7%player%''s regions in this world: &b%regions%'
-  remove: '&e%player%''s regions have been removed in this world, and removed from
-    regions %player% partially owned.'
-  error_search: '&cError while searching for %player%''s regions. Please make sure
-    you have entered the correct name.'
+  list: '&7%player%' ของพื้นี่ต่างๆ ในโลกนี้: &b%regions%'
+  remove: '&e%player%'ของพื้นที่ถูกลบออกจากโลกนี้และถูกลบออกจาก
+    พื้นที่ %player% เป็นเจ้าของบางส่วน.'
+  error_search: '&cเกิดข้อผิดพลาดขณะค้นหา %player%' พื้นที่ โปรดตรวจสอบ
+    ว่าคุณใส่ชื่อถูกต้องแล้ว.'
 tp:
   help: '&b> &7/ps tp [id/player] [num (optional)]'
-  help_desc: Teleports you to one of a given player's regions.
-  number_above_zero: '&cPlease enter a number above 0.'
-  valid_number: '&cPlease enter a valid number.'
-  only_has_regions: '&c%player% only has %num% protected regions in this world!'
-  tping: '&aTeleporting...'
-  error_name: '&cError in teleporting to protected region! (parsing WG region name
+  help_desc: เทเลพอร์ตคุณไปยังพื้นที่ของผู้เล่นคนใดคนหนึ่ง.
+  number_above_zero: '&cโปรดป้อนตัวเลขด้านมากกว่า 0.'
+  valid_number: '&cกรุณากรอกหมายเลขที่ถูกต้อง.'
+  only_has_regions: '&c%player% มีเพียง %num% พื้นที่ที่ได้รับการปกป้องในโลกนี้!'
+  tping: '&aกำลังวาร์ป...'
+  error_name: '&cเกิดข้อผิดพลาดในการเทเลพอร์ตไปยังพื้นที่ที่มีการป้องกัน! (แยกวิเคราะห์ชื่อภูมิภาค WG
     error)'
-  error_tp: '&cError in finding the region to teleport to!'
-  in_seconds: '&7Teleporting in &b%seconds%&7 seconds.'
-  cancelled_moved: '&cTeleport cancelled. You moved!'
+  error_tp: '&cเกิดข้อผิดพลาดในการค้นหาพื้นที่ที่จะเทเลพอร์ตไป!'
+  in_seconds: '&7เทเลพอร์ตใน &b%seconds%&7 วินาที.'
+  cancelled_moved: '&cยกเลิกเทเลพอร์ตแล้ว. คุณเคลื่อนไหว!'
 home:
-  help: '&b> &7/ps home [name/id]'
-  help_desc: Teleports you to one of your protected regions.
-  header: '&8&m=====&r Homes (click to teleport) &8&m====='
-  click_to_tp: Click to teleport!
-  next_page: '&7Do /ps home -p %page% to go to the next page!'
+  help: '&b> &7/ps home [ชื่อ/id]'
+  help_desc: เทเลพอร์ตคุณไปยังพื้นที่ที่ได้รับการคุ้มครอง.
+  header: '&8&m=====&r Homes (คลิกเพื่อเทเลพอร์ต) &8&m====='
+  click_to_tp: คลิกเพื่อเทเลพอร์ต!
+  next_page: '&7Do /ps home -p %page% เพื่อไปยังหน้าถัดไป!'
 unclaim:
   help: '&b> &7/ps unclaim'
-  help_desc: Use this command to pickup a placed protection stone and remove the region.
+  help_desc: ใช้คำสั่งนี้เพื่อดึงหินป้องกันที่วางไว้และลบพื้นที่.
 view:
   help: '&b> &7/ps view'
-  help_desc: Use this command to view the borders of a protected region.
-  cooldown: '&cPlease wait a while before using /ps view again.'
-  generating: '&7Generating border...'
-  generate_done: '&aDone! The border will disappear after 30 seconds!'
+  help_desc: ใช้คำสั่งนี้เพื่อดูขอบเขตของพื้นที่ที่มีการป้องกัน.
+  cooldown: '&cโปรดรอสักครู่ก่อนใช้งาน /ps ดูอีกครั้ง.'
+  generating: '&7กำลังสร้างเส้นขอบ...'
+  generate_done: '&aเสร็จแล้ว! เส้นขอบจะหายไปหลังจาก 30 วินาที!'
   removing: |-
-    &bRemoving border...
-    &aIf you still see ghost blocks, relog!
+    &bกำลังลบเส้นขอบ...
+    &aหากคุณยังคงเห็นบล็อกผีอยู่ให้เข้าสู่ระบบใหม่!
 admin:
   help: '&b> &7/ps admin'
-  help_desc: Do /ps admin help for more information.
+  help_desc: พิมพ์ /ps ความช่วยเหลือของผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติม.
   cleanup_header: |-
     &eCleanup %arg% %days% days
     ================
   cleanup_footer: |-
     &e================
     Completed %arg% cleanup.
-  hide_toggled: '&eAll protection stones have been %message% in this world.'
-  last_logon: '&e%player% last played %days% days ago.'
-  is_banned: '&e%player% is banned.'
-  error_parsing: '&cError parsing days, are you sure it is a number?'
-  console_world: '&cPlease specify the world as the last parameter.'
+  hide_toggled: '&eหินป้องกันทั้งหมดได้รับ %message% ในโลกนี้.'
+  last_logon: '&e%player% เล่นล่าสุด %days% วันที่แล้ว.'
+  is_banned: '&e%player% ถูกแบนแล้ว.'
+  error_parsing: '&cเกิดข้อผิดพลาดในการแยกวิเคราะห์วันแน่ใจว่าเป็นตัวเลขหรือไม่?'
+  console_world: '&cโปรดระบุโลกเป็นพารามิเตอร์สุดท้าย.'
   lastlogons_header: |-
     &e%days% Days Plus:
     ================
-  lastlogons_line: '&e%player% %time% days'
+  lastlogons_line: '&e%player% %time% วัน'
   lastlogons_footer: |-
     &e================
-    %count% Total Players Shown
-    %checked% Total Players Checked
+    %count% ผู้เล่นทั้งหมดที่แสดง
+    %checked% ตรวจสอบผู้เล่นทั้งหมด
 reload:
-  help: '&b> &7/ps reload'
-  help_desc: Reload settings from the config.
-  start: '&bReloading config...'
-  complete: '&bCompleted config reload!'
+  help: '&b> &7/ps โหลดซ้ำ'
+  help_desc: โหลดการตั้งค่าใหม่จากการกำหนดค่า
+  start: '&bกำลังโหลดการกำหนดค่าใหม่...'
+  complete: '&bโหลดการกำหนดค่าเสร็จสมบูรณ์!'
 addremove:
   help: '&b> &7/ps add|remove [playername]'
-  help_desc: Use this command to add or remove a member of your protected region.
+  help_desc: ใช้คำสั่งนี้เพื่อเพิ่มหรือลบสมาชิกของพื้นที่ที่ได้รับการป้องกันของคุณ.
   owner_help: '&b> &7/ps addowner|removeowner [playername]'
-  owner_help_desc: Use this command to add or remove an owner of your protected region.
-  player_reached_limit: '&cThis player has reached their region limit.'
-  player_needs_to_be_online: '&cThe player needs to be online to add them.'
+  owner_help_desc: ใช้คำสั่งนี้เพื่อเพิ่มหรือลบเจ้าของพื้นที่ป้องกันของคุณ.
+  player_reached_limit: '&cผู้เล่นรายนี้ถึงขีดจำกัดพื้นที่แล้ว.'
+  player_needs_to_be_online: '&cผู้เล่นจะต้องออนไลน์ถึงจะเพิ่มได้.'
 get:
   help: '&b> &7/ps get [block]'
-  help_desc: Use this command to get or purchase a protection block.
-  gotten: '&bAdded protection block to inventory!'
-  no_permission_block: '&cYou don''t have permission to get this block.'
-  header: '&8&m=====&r Protect Blocks (click to get) &8&m====='
+  help_desc: ใช้คำสั่งนี้เพื่อรับหรือซื้อหินป้องกัน.
+  gotten: '&bเพิ่มหินป้องกันในสินค้าคงคลัง!'
+  no_permission_block: '&cคุณไม่ได้รับอนุญาตให้รับบล็อกนี้.'
+  header: '&8&m=====&r หินป้องกัน (กดเพื่อรับ) &8&m====='
   gui_block: '&7> &b%alias% &7- %description% (&f$%price%&7)'
-  gui_hover: Click to buy a %alias%!
+  gui_hover: คลิกเพื่อซื้อ %alias%!
 give:
-  help: '&b> &7/ps give [block] [player] [amount (optional)]'
-  help_desc: Use this command to give a player a protection block.
+  help: '&b> &7/ps ให้ [block] [player] [amount (optional)]'
+  help_desc: ใช้คำสั่งนี้เพื่อให้ผู้เล่นมีการป้องกัน.
   given: '&7Gave &b%block%&7 to &b%player%&7.'
-  no_inventory_room: '&cThe player does not have enough inventory room.'
+  no_inventory_room: '&cผู้เล่นไม่มีช่องเก็บของเพียงพอ.'
 sethome:
   help: '&b> &7/ps sethome'
-  help_desc: Use this command to set the home of a region to where you are right now.
-  set: '&7The home for &b%psid%&7 has been set to your location.'
+  help_desc: ใช้คำสั่งนี้เพื่อตั้งค่าบ้านของพื้นที่ที่คุณอยู่ในขณะนี้.
+  set: '&7บ้านสำหรับ &b%psid%&7 ถูกตั้งค่าเป็นตำแหน่งของคุณ.'
 list:
   help: '&b> &7/ps list [player (optional)]'
-  help_desc: Use this command to list the regions you, or another player owns.
-  header: '&8&m=====&r %player%''s Regions &8&m====='
+  help_desc: ใช้คำสั่งนี้เพื่อแสดงรายการพื้นที่ที่คุณหรือผู้เล่นคนอื่นเป็นเจ้าของ.
+  header: '&8&m=====&r %player%''s พื้นที่ &8&m====='
   owner: '&7Owner of:'
   member: '&7Member of:'
 name:
   help: '&b> &7/ps name [name|none]'
-  help_desc: Use this command to give a nickname to your region, to make identifying
-    your region easier.
+  help_desc: ใช้คำสั่งนี้เพื่อตั้งชื่อเล่นให้กับพื้นที่ของคุณเพื่อทำการระบุตัวตน
+    ภูมิภาคของคุณง่ายขึ้น.
   removed: '&7Removed the name for %id%.'
   set_name: '&7Set the name of %id% to &b%name%&7.'
-  taken: '&7The region name &b%name%&7 has already been taken! Try another one.'
+  taken: '&7ชื่อพื้นที่ &b%name%&7 ได้ถูกใช้ไปแล้ว! ลองอีกอัน.'
 setparent:
   help: '&b> &7/ps setparent [region|none]'
-  help_desc: Use this command to allow this region to inherit properties from another
-    region (owners, members, flags, etc.).
-  success: '&7Successfully set the parent of &b%id%&7 to &b%parent%&7.'
-  success_remove: '&7Successfully removed the parent of &b%id%&7.'
-  circular_inheritance: '&cDetected circular inheritance (the parent already inherits
-    from this region?). Parent not set.'
+  help_desc: ใช้คำสั่งนี้เพื่ออนุญาตให้พื้นที่นี้สืบทอดคุณสมบัติจากอีก
+    ภูมิภาค (owners, members, flags, etc.).
+  success: '&7Successfully ตั้งค่าพาเรนต์ของ &b%id%&7 ถึง &b%parent%&7.'
+  success_remove: '&7Successfully ลบพาเรนต์ของ &b%id%&7.'
+  circular_inheritance: '&cตรวจพบการสืบทอดแบบวงกลม (ผู้ปกครองได้รับมรดกแล้ว
+    จากพื้นที่นี้ล้ว?). ไม่ได้ตั้งค่าผู้ปกครอง.'
 merge:
   help: '&b> &7/ps merge'
   help_desc: ใช้คำสั่งนี้เพื่อรวมพื้นที่ที่คุณอยู่กับการทับซ้อนพื้นที่อื่น ๆ regions.
