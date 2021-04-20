@@ -1,0 +1,358 @@
+cooldown: '&6Warning: &7Please wait for %time% seconds before placing again!'
+no_such_command: '&cNo such command. please type /ps help for more info'
+no_access: '&cYou are not allowed to do that here.'
+no_room_in_inventory: '&cYou don''t have enough room in your inventory.'
+no_room_dropping_on_floor: '&cYou don''t have enough room in your inventory. Dropping
+  item on floor.'
+invalid_block: '&cInvalid protection block.'
+not_enough_money: '&cYou don''t have enough money! The price is %price%.'
+paid_money: '&bYou''ve paid $%price%.'
+invalid_world: '&cInvalid world.'
+must_be_player: '&cYou must be a player to execute this command.'
+go_back_page: Go back a page.
+go_next_page: Go to next page.
+help: |-
+  &8&m=====&r PS Help &8&m=====
+  &b> &7/ps help
+help_next: หินป้องกัน > &7ใช้คำสั่ง /ps help %page% เพื่อไปหน้าต่อไป
+command_requires_player_name: หินป้องกัน > &cต้องการชื่้อผู้เล่น
+no_permission_toggle: ' หินป้องกัน > &cไม่สามารถใช้คำสั่งนี้ได้'
+no_permission_create: ' หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้วางหินป้องกัน'
+no_permission_create_specific: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้วางหินป้องกันนี้
+no_permission_destroy: หินป้องกัน > &cคุณไม่มีสิทธิ์ทำลายหินป้องกัน
+no_permission_members: หินป้องกัน > &cคุณไม่่มีสิทธิ์ในการใช้คำสั่งสมาชิก
+no_permission_owners: หินป้องกัน > &cคุณไม่่มีสิทธิ์ในการใช้คำสั่งเจ้าของ
+no_permission_admin: หินป้องกัน > &cคุณไม่สามารถใช้คำสั่งนี้ได้
+no_permission_count: หินป้องกัน > &cคุณไม่สามารถใช้คำสั่งนี้ได้
+no_permission_count_others: หินป้องกัน > &cคุณไม่สามารถใช้คำสั่งนี้ได้
+no_permission_flags: หินป้องกัน > &cคุณไม่มีสิทธิ์ใช้คำสั่งแฟล็ก
+no_permission_per_flag: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้แฟล็กนั้น
+no_permission_rent: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้เช่า
+no_permission_tax: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่งภาษี
+no_permission_buysell: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ซื้อและขายภูมิภาค
+no_permission_unhide: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ยกเลิกการซ่อนการป้องกัน
+no_permission_hide: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ซ่อนบล็อกการป้องกัน
+no_permission_info: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่งข้อมูลภูมิภาค
+no_permission_priority: หินป้องกัน > &cคุณไม่มีสิทธิ์ใช้คำสั่งลำดับความสำคัญ
+no_permission_region: หินป้องกัน > &cคุณไม่มีสิทธิ์ใช้คำสั่งภูมิภาค
+no_permission_tp: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้เทเลพอร์ตไปยังการหินป้องกันของผู้เล่นคนอื่น
+no_permission_home: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้เทเลพอร์ตไปยังบล็อกการป้องกันของคุณ
+no_permission_unclaim: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่งยกเลิกการอ้างสิทธิ์
+no_permission_view: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่ง view
+no_permission_give: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่งให้
+no_permission_get: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่ง get
+no_permission_sethome: หินป้องกัน > &cคุณไม่มีสิทธิ์ใช้คำสั่ง sethome
+no_permission_list: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่งรายการ
+no_permission_list_others: หินป้องกัน > &cคุณไม่มีสิทธิ์ใช้คำสั่ง list
+no_permission_name: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้คำสั่ง name
+no_permission_setparent: หินป้องกัน > &cคุณไม่มีสิทธิ์ใช้คำสั่ง setparent
+no_permission_setparent_others: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้รับช่วงจากภูมิภาคที่คุณไม่ได้เป็นเจ้าของ
+no_permission_merge: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ใช้ / ps merge.
+psregion:
+  added_to_region: หินป้องกัน > &a%player%&7 ได้ถูกเพิ่มลงในพื้นที่
+  added_to_region_specific: หินป้องกัน > &a%player%&7 ได้ถูกเพื่มลงในพื้นที่ %region%.
+  removed_from_region: หินป้องกัน > &c%player%&7 ถูกลบออกจากพื้นที่
+  removed_from_region_specific: หินป้องกัน > &c%player%&7 ถูกลบออกจากพื้นที่ %region%.
+  not_in_region: หินป้องกัน > &cคุณไม่ได้อยู่ในพื้นที่หินป้องกัน!
+  player_not_found: หินป้องกัน > &cไม่พบผู้เล่น
+  not_ps_region: หินป้องกัน > &cไม่ใช่พื้นที่ป้องกัน
+  region_does_not_exist: '&cไม่มีพื้นที่นี้'
+  no_regions_owned: หินป้องกัน > &cคุณไม่ได้เป็นเจ้าของพื้นที่หินป้องกันใดๆ ในโลกนี้
+  no_region_permission: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้ดำเนินการในพื้นที่นี้
+  protected: '&aพื้นที่นี้ได้วางหินป้องกันแล้ว'
+  no_longer_protected: หินป้องกัน > &cพื้นที่นี้ไม่ได้รับการป้องกันจากหินป้องกันอีกต่อไป
+  cant_protect_that: หินป้องกัน > &cคุณไม่สามารถวางหินป้องกันที่พื้นที่นี้ได้
+  reached_region_limit: หินป้องกัน > &cคุณวางหินป้องกันเกินลิมิตรแล้ว (%limit%).
+  reached_per_block_region_limit: หินป้องกัน > &cคุณวางหินป้องกันประเภทนี้เกินลิมิตรแล้ว
+    (%limit%)
+  world_denied_create: หินป้องกัน > &cคุณไม่สามารถวางหินป้องกันในโลกนี้ได้
+  region_overlap: หินป้องกัน > &cคุณไม่สามารถวางหินป้องกันที่พื้นที่นี้ได้เนื่องจากทับซ้อนกัน
+  region_too_close: หินป้องกัน > &cหินป้องกันของคุณต้องอยู่ห่างจากหินป้องกันของคนอื่น
+    %num% blocks
+  cant_teleport: หินป้องกัน > &cวาปของคุณถูกป้องกันจากหินป้องกัน
+  specify_id_instead_of_alias: |-
+    &7There were multiple regions found with this name! Please use an ID instead.
+     Regions with this name: &b%regions%
+  region_not_adjacent: หินป้องกัน > &cYou've passed the limit of non-adjacent regions!
+    Try putting your protection block closer to other regions you already own.
+  not_overlapping: หินป้องกัน > &cพื้นที่นี้ไม่ทับซ้อนกัน
+  multi_region_does_not_exist: หินป้องกัน > ไม่มีพื้นที่นี้
+  no_region_holes: หินป้องกัน > &cตรวจพบพื้นที่ที่ไม่มีการป้องกันภายในภูมิภาค! สิ่งนี้ไม่ได้รับอนุญาต
+  delete_region_prevented: หินป้องกัน > &7ไม่สามารถลบพื้นที่ได้ อาจเป็นเพราะพื้นที่นั้นสร้างช่องว่างในพื้นที่ที่มีอยู่
+  not_owner: หินป้องกัน > &cคุณไม่ใช่เจ้าของพื้นที่นี้
+  cannot_merge_rented_region: หินป้องกัน > &cไม่สามารถรวมพื้นที่ได้เนื่องจากพื้นที่
+    %region% อยู่ในขั้นตอนการเช่า
+  no_permission_region_type: หินป้องกัน > &cคุณไม่ได้รับอนุญาตให้มีประเภทภูมิภาคนี้
+  hidden: หินป้องกัน > &7ตอนนี้บล็อกการป้องกันถูกซ่อนอยู่
+  must_be_placed_in_existing_region: หินป้องกัน > &cThis must be placed inside of
+    an existing region!
+  already_in_location_is_hidden: หินป้องกัน > &cพื้นที่นี้มีหินป้องกันวางอยู่แล้ว
+    (หินป้องกันที่ซ่อนอยู่)
+  cannot_remove_yourself_last_owner: หินป้องกัน > &cคุณไม่สามารถลบตัวเองได้เนื่องจากคุณเป็นเจ้าของคนสุดท้าย
+  cannot_remove_yourself_all_regions: หินป้องกัน > &cคุณไม่สามารถลบตัวเองออกจากไฟล์ภูมิภาคพร้อมกันด้วยเหตุผลด้านความปลอดภัย
+toggle:
+  help: หินป้องกัน > &a> &7/ps toggle
+  help_desc: หินป้องกัน > ใช้คำสั่งนี้เพื่อเปิดหรือปิดตำแหน่งของบล็อกป้องกัน
+  toggle_on: หินป้องกัน > &bตำแหน่งหินป้องกันเปิดอยู่
+  toggle_off: หินป้องกัน > &bปิดตำแหน่งหินป้องกันแล้ว
+count:
+  count_help: '&b> &7/ps count [player (optional)]'
+  count_help_desc: หินป้องกัน > นับจำนวนพื้นที่ที่คุณเป็นเจ้าของหรือผู้เล่นคนอื่น
+  personal_region_count: 'หินป้องกัน > &7พื้นที่ของคุณที่มีอยู่ในโลกนี้: &b%num%'
+  personal_region_count_merged: 'หินป้องกัน > &7- รวมถึงแต่ละพื้นที่ที่รวมเข้าด้วยกัน:
+    &b%num%'
+  other_region_count: 'หินป้องกัน > &7%player%''s พื้นที่ที่นับในโลกนี้: &b%num%'
+  other_region_count_merged: 'หินป้องกัน > &7- รวมถึงแต่ละพื้นที่ที่รวมเข้าด้วยกัน:
+    &%num%'
+flag:
+  help: '&b> &7/ps flag [flagname] [value|null|default]'
+  help_desc: หินป้องกัน > ใช้คำสั่งนี้เพื่อตั้งค่าสถานะในพื้นที่ที่ได้รับการป้องกันของคุณ.
+  flag_set: หินป้องกัน > &b%flag%&7 ตั้งค่าสถานะแล้ว
+  flag_not_set: หินป้องกัน > &b%flag%&7 flag has &cnot&7 been set. Check your values
+    again.
+  flag_prevent_exploit: หินป้องกัน > &cThis has been disabled to prevent exploits.
+  flag_prevent_exploit_hover: หินป้องกัน > &cปิดใช้งานด้วยเหตุผลด้านความปลอดภัย.
+  gui_header: '&8&m=====&r Flags (click to change) &8&m====='
+  gui_hover_set: '&bClick to set.'
+  gui_hover_set_text: |-
+    &bClick to change.&f
+    Current value:
+    %value%
+  hover_change_group: Click to set this flag to apply to only %group%.
+  hover_change_group_null: '&cYou must set this flag to a value before changing the
+    group.'
+rent:
+  help: '&b> &7/ps rent'
+  help_desc: ใช้คำสั่งนี้เพื่อจัดการค่าเช่า (buying and selling).
+  help_header: '&8&m=====&r Rent Help &8&m====='
+  already_renting: '&cThe region is already being rented out! You must stop leasing
+    the region first.'
+  not_rented: '&cThis region is not being rented.'
+  lease_success: |-
+    &bRegion leasing terms set:
+    &bPrice: &7%price%
+    &bPayment Term: &7%period%
+  stopped: '&bการเช่าพื้นที่ได้หยุดลง'
+  evicted: '&7ผู้เช่าถูกขับไล่ %tenant%.'
+  not_renting: '&cพื้นที่นี้ไม่ได้ถูกปล่อยเช่าให้กับผู้เช่า'
+  paid_landlord: '&b%tenant%&7 ได้จ่ายเงิน &b$%price%&7 สำหรับการเช่า &b%region%&7.'
+  paid_tenant: '&7จ่าย &b$%price%&7 to &b%landlord%&7 for region &b%region%&7.'
+  renting_landlord: '&b%player%&7 is now renting out region &b%region%&7.'
+  renting_tenant: '&7You are now renting out region &b%region%&7 for &b%price%&7 per
+    &b%period%&7.'
+  not_tenant: '&cYou are not the tenant of this region!'
+  tenant_stopped_landlord: '&b%player%&7 has stopped renting out region &b%region%&7.
+    It is now available for others to rent.'
+  tenant_stopped_tenant: '&bYou have stopped renting out region %region%.'
+  being_sold: '&cThe region is being sold! Do /ps sell stop first.'
+  evict_no_money_tenant: '&7You have been &cevicted&7 from region &b%region%&7 because
+    you do not have enough money (%price%) to pay for rent.'
+  evict_no_money_landlord: '&b%tenant%&7 has been &cevicted&7 from region &b%region%&7
+    because they are unable to afford rent.'
+  cannot_rent_own_region: '&cYou cannot rent your own region!'
+  reached_limit: '&cYou''ve reached the limit of regions you are allowed to rent!'
+  price_too_low: '&cThe rent price is too low (must be larger than %price%).'
+  price_too_high: '&cThe rent price is too high (must be lower than %price%).'
+  period_too_short: '&cThe rent period is too short (must be longer than %period%
+    seconds).'
+  period_too_long: '&cThe rent period is too long (must be shorter than %period% seconds).'
+  period_invalid: '&cInvalid period format! Example: 24h for once a day.'
+  cannot_break_while_renting: '&cYou cannot break the region when it is being rented
+    out.'
+tax:
+  help: '&b> &7/ps tax'
+  help_desc: Use this command to manage and pay taxes.
+  help_header: '&8&m=====&r Taxes Help &8&m====='
+  disabled_region: '&cTaxes are disabled for this region.'
+  set_as_autopayer: '&7Taxes for region &b%region%&7 will now be automatically paid
+    by you.'
+  set_no_autopayer: '&7Taxes for region &b%region%&7 now have to be manually paid
+    for.'
+  paid: '&7Paid &b$%amount%&7 in taxes for region &b%region%&7.'
+  info_header: '&8&m=====&r Tax Info (click for more info) &8&m====='
+  join_msg_pending_payments: |-
+    &7You have &b$%money%&7 in tax payments due on your regions!
+    View them with /ps tax info.
+  player_region_info: '&7> &b%region%&7 - &3$%money% due'
+  player_region_info_autopayer: '&7> &b%region%&7 - &3$%money% due&7 (you autopay)'
+  click_to_show_more_info: Click to show more information.
+  region_info_header: '&8&m=====&r %region% Tax Info &8&m====='
+  region_info: |-
+    &9Tax Rate: &7$%taxrate% (sum of all merged regions)
+    &9Time between tax cycles: &7%taxperiod%
+    &9Time to pay taxes after cycle: &7%taxpaymentperiod%
+    &9Tax Autopayer: &7%taxautopayer%
+    &9Taxes Owed: &7$%taxowed%
+  next_page: '&7Do /ps tax info -p %page% to go to the next page!'
+buy:
+  help: '&b> &7/ps buy'
+  help_desc: Buy the region you are currently in.
+  not_for_sale: '&cThis region is not for sale.'
+  stop_sell: '&7The region is now not for sale.'
+  sold_buyer: '&7Bought region &b%region%&7 for &b$%price%&7 from &b%player%&7.'
+  sold_seller: '&7Sold region &b%region%&7 for &b$%price%&7 to &b%player%&7.'
+sell:
+  help: '&b> &7/ps sell [price|stop]'
+  help_desc: Sell the region you are currently in.
+  rented_out: '&cThe region is being rented out! You must stop renting it out to sell.'
+  for_sale: '&7The region is now for sale for &b$%price%&7.'
+visibility:
+  hide_help: '&b> &7/ps hide'
+  hide_help_desc: Use this command to hide or unhide your protection block.
+  unhide_help: '&b> &7/ps unhide'
+  unhide_help_desc: Use this command to hide or unhide your protection block.
+  already_not_hidden: '&7The protection stone doesn''t appear hidden...'
+  already_hidden: '&7The protection stone appears to already be hidden...'
+info:
+  help: '&b> &7/ps info members|owners|flags'
+  help_desc: Use this command inside a ps region to see more information about it.
+  header: '&8&m=====&r PS Info &8&m====='
+  type: '&9Type: &7'
+  may_be_merged: (may be merged with other types)
+  merged: '&9Merged regions: &7'
+  members: '&9Members: &7'
+  no_members: '&c(no members)'
+  owners: '&9Owners: &7'
+  no_owners: '&c(no owners)'
+  flags: '&9Flags: &7'
+  region: '&9Region: &b'
+  priority: '&9Priority: &b'
+  parent: '&9Parent: &b'
+  bounds: '&9Bounds: &b'
+  seller: '&9Seller: &7'
+  price: '&9Price: &7'
+  tenant: '&9Tenant: &7'
+  landlord: '&9Landlord: &7'
+  rent: '&9Rent: &7'
+  available_for_sale: '&bRegion available for sale!'
+  available_for_rent: '&bRegion available for rent!'
+priority:
+  help: '&b> &7/ps priority [number|null]'
+  help_desc: Use this command to set your region's priority.
+  info: '&7Priority: %priority%'
+  set: '&ePriority has been set.'
+  error: '&cError parsing input, check it again?'
+region:
+  help: '&b> &7/ps region [list|remove|disown] [playername]'
+  help_desc: Use this command to find information or edit other players' (or your
+    own) protected regions.
+  not_found_for_player: '&7No regions found for %player% in this world.'
+  list: '&7%player%''s regions in this world: &b%regions%'
+  remove: '&e%player%''s regions have been removed in this world, and removed from
+    regions %player% partially owned.'
+  error_search: '&cError while searching for %player%''s regions. Please make sure
+    you have entered the correct name.'
+tp:
+  help: '&b> &7/ps tp [id/player] [num (optional)]'
+  help_desc: Teleports you to one of a given player's regions.
+  number_above_zero: '&cPlease enter a number above 0.'
+  valid_number: '&cPlease enter a valid number.'
+  only_has_regions: '&c%player% only has %num% protected regions in this world!'
+  tping: '&aTeleporting...'
+  error_name: '&cError in teleporting to protected region! (parsing WG region name
+    error)'
+  error_tp: '&cError in finding the region to teleport to!'
+  in_seconds: '&7Teleporting in &b%seconds%&7 seconds.'
+  cancelled_moved: '&cTeleport cancelled. You moved!'
+home:
+  help: '&b> &7/ps home [name/id]'
+  help_desc: Teleports you to one of your protected regions.
+  header: '&8&m=====&r Homes (click to teleport) &8&m====='
+  click_to_tp: Click to teleport!
+  next_page: '&7Do /ps home -p %page% to go to the next page!'
+unclaim:
+  help: '&b> &7/ps unclaim'
+  help_desc: Use this command to pickup a placed protection stone and remove the region.
+view:
+  help: '&b> &7/ps view'
+  help_desc: Use this command to view the borders of a protected region.
+  cooldown: '&cPlease wait a while before using /ps view again.'
+  generating: '&7Generating border...'
+  generate_done: '&aDone! The border will disappear after 30 seconds!'
+  removing: |-
+    &bRemoving border...
+    &aIf you still see ghost blocks, relog!
+admin:
+  help: '&b> &7/ps admin'
+  help_desc: Do /ps admin help for more information.
+  cleanup_header: |-
+    &eCleanup %arg% %days% days
+    ================
+  cleanup_footer: |-
+    &e================
+    Completed %arg% cleanup.
+  hide_toggled: '&eAll protection stones have been %message% in this world.'
+  last_logon: '&e%player% last played %days% days ago.'
+  is_banned: '&e%player% is banned.'
+  error_parsing: '&cError parsing days, are you sure it is a number?'
+  console_world: '&cPlease specify the world as the last parameter.'
+  lastlogons_header: |-
+    &e%days% Days Plus:
+    ================
+  lastlogons_line: '&e%player% %time% days'
+  lastlogons_footer: |-
+    &e================
+    %count% Total Players Shown
+    %checked% Total Players Checked
+reload:
+  help: '&b> &7/ps reload'
+  help_desc: Reload settings from the config.
+  start: '&bReloading config...'
+  complete: '&bCompleted config reload!'
+addremove:
+  help: '&b> &7/ps add|remove [playername]'
+  help_desc: Use this command to add or remove a member of your protected region.
+  owner_help: '&b> &7/ps addowner|removeowner [playername]'
+  owner_help_desc: Use this command to add or remove an owner of your protected region.
+  player_reached_limit: '&cThis player has reached their region limit.'
+  player_needs_to_be_online: '&cThe player needs to be online to add them.'
+get:
+  help: '&b> &7/ps get [block]'
+  help_desc: Use this command to get or purchase a protection block.
+  gotten: '&bAdded protection block to inventory!'
+  no_permission_block: '&cYou don''t have permission to get this block.'
+  header: '&8&m=====&r Protect Blocks (click to get) &8&m====='
+  gui_block: '&7> &b%alias% &7- %description% (&f$%price%&7)'
+  gui_hover: Click to buy a %alias%!
+give:
+  help: '&b> &7/ps give [block] [player] [amount (optional)]'
+  help_desc: Use this command to give a player a protection block.
+  given: '&7Gave &b%block%&7 to &b%player%&7.'
+  no_inventory_room: '&cThe player does not have enough inventory room.'
+sethome:
+  help: '&b> &7/ps sethome'
+  help_desc: Use this command to set the home of a region to where you are right now.
+  set: '&7The home for &b%psid%&7 has been set to your location.'
+list:
+  help: '&b> &7/ps list [player (optional)]'
+  help_desc: Use this command to list the regions you, or another player owns.
+  header: '&8&m=====&r %player%''s Regions &8&m====='
+  owner: '&7Owner of:'
+  member: '&7Member of:'
+name:
+  help: '&b> &7/ps name [name|none]'
+  help_desc: Use this command to give a nickname to your region, to make identifying
+    your region easier.
+  removed: '&7Removed the name for %id%.'
+  set_name: '&7Set the name of %id% to &b%name%&7.'
+  taken: '&7The region name &b%name%&7 has already been taken! Try another one.'
+setparent:
+  help: '&b> &7/ps setparent [region|none]'
+  help_desc: Use this command to allow this region to inherit properties from another
+    region (owners, members, flags, etc.).
+  success: '&7Successfully set the parent of &b%id%&7 to &b%parent%&7.'
+  success_remove: '&7Successfully removed the parent of &b%id%&7.'
+  circular_inheritance: '&cDetected circular inheritance (the parent already inherits
+    from this region?). Parent not set.'
+merge:
+  help: '&b> &7/ps merge'
+  help_desc: ใช้คำสั่งนี้เพื่อรวมพื้นที่ที่คุณอยู่กับการทับซ้อนพื้นที่อื่น ๆ regions.
+  disabled: การรวมพื้นที่ถูกปิดใช้งานในการกำหนดค่า!
+  merged: '&aรวมภูมิภาคสำเร็จแล้ว!'
+  header: '&8&m=====&r รวมพื้นที่ %region% (คลิกเพื่อรวมพื้นที่) &8&m====='
+  warning: '&7Note: การดำเนินการนี้จะลบการตั้งค่าทั้งหมดสำหรับพื้นที่ปัจจุบัน!'
+  not_allowed: '&cคุณไม่ได้รับอนุญาตให้รวมประเภทพื้นที่การป้องกันนี้'
+  into: '&bภูมิภาคนี้ทับซ้อนกับภูมิภาคอื่น ๆ ที่คุณสามารถรวมเข้าด้วยกัน!'
+  no_region: '&7ไม่มีพื้นที่ทับซ้อนที่จะรวมเข้าด้วยกัน'
+  click_to_merge: คลิกเพื่อรวมเข้าด้วยกัน %region%!
+  auto_merged: '&7รวมพื้นที่โดยอัตโนมัติด้วย &b%region%&7.'
